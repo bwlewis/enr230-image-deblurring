@@ -1,0 +1,40 @@
+channels:
+  - conda-forge
+dependencies:
+  # Build dependencies
+  - cxx-compiler
+  - c-compiler
+  - cmake
+  - make
+  - pkg-config
+  # Host dependencies
+  - libuuid
+  - xtl
+  - xeus-zmq =1.*
+  - nlohmann_json
+  - cppzmq
+  - octave =8.*
+  - glad
+  - glfw
+  - libpng
+  # Test dependencies
+  - pre-commit
+  - clang-tools
+  - clang
+  - jupyter_kernel_test >=0.4.3
+  - nbval
+  - pytest
+  - pytest-rerunfailures
+  # Doc dependencies
+  - doxygen
+  - sphinx <6
+  - breathe
+  - sphinx_rtd_theme
+  # Dev dependencies
+  - jupyterlab
+  - nodejs
+  - ccache
+  - cmake-format
+  - plotly
+  - ipywidgets
+  - jupyter-dash
